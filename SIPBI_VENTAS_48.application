@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://github.com/DOGR6801068N1/BIPPYMES-Viewer-app/SIPBI_VENTAS_48.application" />
+    <deploymentProvider codebase="https://dogr6801068n1.github.io/BIPPYMES-Viewer-app/SIPBI_VENTAS_48.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
