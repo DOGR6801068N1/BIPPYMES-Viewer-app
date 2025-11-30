@@ -1,0 +1,28 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #005a9e;
+}
