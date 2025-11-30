@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Selector Power BI Viewer</title>
+  <link rel="stylesheet" href="viewer-style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Seleccionar Compañía y Tipo BI</h2>
+    <select id="companySelector"></select>
+    <select id="biTypeSelector"></select>
+
+    <button onclick="loadUsers()">Continuar</button>
+
+    <div id="userSection" style="display:none;">
+      <h3>Seleccionar Usuario</h3>
+      <select id="userSelector"></select>
+      <button onclick="startViewer()">Generar Token</button>
+    </div>
+  </div>
+
+  <script src="viewer-script.js"></script>
+</body>
+</html>
